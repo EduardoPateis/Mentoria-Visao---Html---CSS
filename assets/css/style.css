@@ -4,9 +4,9 @@
 
 
 
-:root{
+/* :root{
 
-}
+} */
 
 
 
@@ -45,8 +45,20 @@ header{
         line-height: 150%;
     }
 .navegacao{
-    display: flex;
-    justify-content: space-around;
-    height: 170px;
-    align-items: center;
+        display: flex;
+        justify-content: space-around;
+        height: 170px;
+        align-items: center;
+        background: #EAECE5;
 }
+    .submenu{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .submenu p{
+        margin-left: 20px;
+    }
